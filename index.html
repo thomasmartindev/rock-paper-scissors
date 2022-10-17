@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+    <link rel="icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+    <main id="main">
+      <h2 id="result">Let's begin</h2>
+      <p id="resultDescription">First to reach 5 points wins the game</p>
+      <div class="scoreboard" id="scoreboard">
+        <div>
+          <div class="icon" id="humanIcon">❔</div>
+          <p class="score">Human: <span id="humanScoreCounter">0</span></p>
+        </div>
+        <div>
+          <div class="icon" id="computerIcon">❔</div>
+          <p class="score">Computer: <span id="computerScoreCounter">0</span></p>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="rock">
+          <div>✊</div>
+        </button>
+        <button id="paper">
+          <div>📄</div>
+        </button>
+        <button id="scissors">
+          <div>✂️</div>
+        </button>
+      </div>
+    </main>
+    <footer>
+      <p>thomasmdevelopment</p>
+      <a href="https://github.com/thomasmdevelopment" target="_blank"><i class="fab fa-github"></i></a>
+    </footer>
+  </body>
+</html>
